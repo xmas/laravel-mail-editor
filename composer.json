@@ -1,15 +1,14 @@
 {
-    "name": "qoraiche/laravel-mail-editor",
+    "name": "xmas/laravel-mail-editor",
     "description": "Laravel Mailable Editor",
     "license": "MIT",
     "authors": [
         {
-            "name": "yassine qoraiche",
-            "email": "qoraicheofficiel@hotmail.com",
-            "homepage": "https://github.com/qoraiche"
+            "name": "yassine",
+            "homepage": "https://github.com/xmas"
         }
     ],
-    "homepage": "https://github.com/Qoraiche/laravel-mail-editor",
+    "homepage": "https://github.com/xmas/laravel-mail-editor",
     "keywords": [
         "Laravel",
         "mailEclipse",
@@ -25,28 +24,28 @@
         "laravel/legacy-factories": "^1.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.5.10",
-        "mockery/mockery": "^1.4.4",
+        "phpunit/phpunit": "^11.5.3",
+        "mockery/mockery": "^1.6",
         "orchestra/testbench": "^7.0",
         "sempro/phpunit-pretty-print": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "Qoraiche\\MailEclipse\\": "src/"
+            "xmas\\MailEclipse\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Qoraiche\\MailEclipse\\Tests\\": "tests"
+            "xmas\\MailEclipse\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Qoraiche\\MailEclipse\\MailEclipseServiceProvider"
+                "xmas\\MailEclipse\\MailEclipseServiceProvider"
             ],
             "aliases": {
-                "MailEclipse": "Qoraiche\\MailEclipse\\Facades\\MailEclipse"
+                "MailEclipse": "xmas\\MailEclipse\\Facades\\MailEclipse"
             }
         }
     }
